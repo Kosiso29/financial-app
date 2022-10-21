@@ -93,9 +93,15 @@ function TransactionModal(props) {
                         </Group>
                     </Group>
                     <br />
-                    <Button type='submit' onClick={handleClick}>
-                        Add
-                    </Button>
+                    <Row>
+                        <Col></Col>
+                        <Col>
+                            <Button style={{width: "100%"}} type='submit' onClick={handleClick}>
+                                Add
+                            </Button>
+                        </Col>
+                        <Col></Col>
+                    </Row>
                 </Form>
             </Modal.Body>
         </Modal>
